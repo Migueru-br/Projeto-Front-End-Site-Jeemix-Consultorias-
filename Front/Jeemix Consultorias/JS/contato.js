@@ -1,0 +1,1 @@
+window.alert("Utilize esse formulário para se comunicar conosco.");

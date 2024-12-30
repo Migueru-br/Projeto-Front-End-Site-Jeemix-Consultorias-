@@ -1,0 +1,396 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family: "Tahoma", "Arial";
+}
+
+
+.carrosel{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.carrosel img {
+    width: 100%;
+    display: block;
+    border: 2px solid white; 
+    border-radius: 13px;
+    box-sizing: border-box;
+}
+
+
+
+.carrosel-btn {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50);
+    cursor: pointer;
+    
+}
+
+.prev  {
+    left: 0;
+}
+
+.next{
+    right: 0;
+}
+
+
+.content {
+    max-width: 1200px;
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #ffffff; 
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: left; 
+    color: #333; 
+    font-size: 18px; 
+    line-height: 1.6; 
+}
+
+.content h1 {
+    color: #1b1a1d; 
+    font-size: 30px; 
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+.content ul {
+    list-style-type: disc; 
+    padding-left: 40px; 
+}
+
+.content ul li {
+    margin-bottom: 10px; 
+    font-size: 16px; 
+    color: #555; 
+}
+
+.content p {
+    font-size: 17px;
+    margin-bottom: 15px; 
+    color: #444; 
+}
+
+
+header {
+    background: #1b1a1d;
+    padding: 0;
+    text-align: center;
+}
+
+.box3 {
+    text-align: center;
+    width: auto;
+
+}
+
+
+.servicos {
+    width: auto;
+    margin: 20px auto;
+    background-color: #ff914d;
+
+    
+}
+
+.servicos2 {
+    background-color: #ff914d;
+}
+
+.servicos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    padding: 50px 0;
+    
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2.5px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+.servicos img {
+    width: 35%;
+}
+
+
+.serv_desc {
+    font-size: 15px;
+}
+
+.servicos li:hover {
+    border: 2px solid gold;
+    border-radius: 10px;
+    width: 29%;
+
+}
+
+
+.servicos li:active {
+    border-color: green;
+}
+
+.serv_preco {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.servicos h5 {
+    font-size: 22px;
+}
+
+footer {
+    width: 100%;
+    background-color: #1b1a1d;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.logo_caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    text-align: center;
+    background-color: #ff914d;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 25px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+h4 {
+    font-size: 15px;
+    color:white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav a:hover {
+    color: #917747;
+    text-decoration: dashed;
+    font-size: 25px;
+}
+
+.banner {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+main {
+    padding: 20px;
+    margin: 0;
+    background-color: #ff914d;
+}
+
+.content2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ff914d;
+}
+
+.empresas-parceiros-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px;
+    padding: 20px; 
+    background-color: #FF914D; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.empresas-parceiro {
+    flex: 1 1 calc(30% - 20px);
+    min-width: 250px; 
+    text-align: center; 
+    padding: 15px; 
+    border: 2px solid #ddd; 
+    border-radius: 10px; 
+    background-color: #ffffff; 
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.empresas-parceiro:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.empresas-parceiro-logo {
+    width: 100px; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+
+.empresas-parceiro p {
+    font-size: 16px; 
+    color: #333; 
+    line-height: 1.4; 
+    margin: 0; 
+}
+
+@media only screen and (max-width: 768px) {
+    .empresas-parceiro {
+        flex: 1 1 100%; 
+    }
+
+    .empresas-parceiro-logo {
+        width: 80px; 
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .logo {
+        width: 50%;
+    }
+
+    nav li {
+        margin: 0 10px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 80%;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+    body {
+        font-size: 14px;
+    }
+
+    .logo {
+        width: 70%;
+    }
+
+    nav ul {
+        flex-direction: column; 
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+
+    nav a {
+        font-size: 16px;
+    }
+
+    .empresas-parceiros-container {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+
+    .empresas-parceiro {
+        flex: 1 1 100%; 
+        padding: 10px;
+    }
+
+    .empresas-parceiro-logo {
+        width: 60px; 
+    }
+
+    .content {
+        padding: 10px; 
+        font-size: 16px; 
+    }
+
+    .servicos li {
+        width: 100%; 
+        margin: 10px 0;
+        padding: 20px;
+    }
+
+    .servicos img {
+        width: 50%;
+    }
+
+    .banner-img {
+        height: auto;
+        max-height: 300px; 
+    }
+
+    .carrosel {
+        max-width: 100%;
+    }
+
+    .carrosel-btn {
+        top: 45%; 
+    }
+
+    .content2 {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 10px; 
+        text-align: center;
+    }
+
+    footer img {
+        width: 85%;
+    }
+
+}
